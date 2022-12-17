@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Scanner;
 
-public class Main {
+public class Problem1 {
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
-        String[] arr = main.setUp("/input.txt");
+        Problem1 main = new Problem1();
+        String[] arr = main.setUp("/Problem1.txt");
         LinkedHashMap<Integer, Integer> map = new LinkedHashMap<>();
         for (String s : arr) {
             int s1 = Integer.parseInt(s.substring(0, s.indexOf(" ")));
